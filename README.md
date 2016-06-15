@@ -1,7 +1,25 @@
 # Дискретная математика
 ### 1. Делимость целых чисел. НОД и его свойства. Простые числа. Решето Эратосфена. Ал-горитмы факторизации (метод пробных делителей и метод Ферма).
 #### 1.1 Делимость целых чисел.
-#### 1.2 НОД и его свойства.
+ Теорема о делимости
+> Любое целое число a возможно представить единственным образом через целое и отличное от нуля число b в виде a=b·q+r, где q и r – некоторые целые числа, причем 0 <= r < |b|.
+
+Доказательство существования  
+Пусть qn  и  (q+1)n,  
+![1](http://ipo.spb.ru/iumk2/MATH_XXI-10/Modules/M_1.1.2/M_1.1.2.files/image009.gif)   
+![2](http://ipo.spb.ru/iumk2/MATH_XXI-10/Modules/M_1.1.2/M_1.1.2.files/image011.gif)  
+Доказательство единственности  
+![1](http://ipo.spb.ru/iumk2/MATH_XXI-10/Modules/M_1.1.2/M_1.1.2.files/image013.gif)  
+![2](http://ipo.spb.ru/iumk2/MATH_XXI-10/Modules/M_1.1.2/M_1.1.2.files/image015.gif)  
+![3](http://ipo.spb.ru/iumk2/MATH_XXI-10/Modules/M_1.1.2/M_1.1.2.files/image017.gif)  
+#### 1.2 НОД(m,n), НОК[m,n] и его свойства.
+Способы вычисления:алгоритм Евклида и бинарный алгоритм.
+Через каноническое разложение на простые множители:  
+![1](https://wikimedia.org/api/rest_v1/media/math/render/svg/79086fb20eeab874b666a4c3dd16c8ce3b111479)
+![1](https://wikimedia.org/api/rest_v1/media/math/render/svg/f799fcf2df158fdf79afb12a7e523e7e162853d9)  
+![3](https://wikimedia.org/api/rest_v1/media/math/render/svg/5a3dc7299bf0435d23a5d5ff2e051c78f79cc010)
+![4](https://wikimedia.org/api/rest_v1/media/math/render/svg/763005246bdf533342d77739ebbf852eea062297)  
+Для множества НОД, где d1=a1: ![5](https://wikimedia.org/api/rest_v1/media/math/render/svg/e9909bb393b28f8563c2900b36e17a97c7a29ca2)
 #### 1.3 Простые числа.
 #### 1.4 Решето Эратосфена.
 Для нахождения всех простых чисел не больше заданного числа n, следуя методу Эратосфена, нужно выполнить следующие шаги:
